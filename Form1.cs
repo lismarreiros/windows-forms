@@ -54,9 +54,7 @@ namespace DesafioFocare1
             var pessoa = new Pessoa(idade, sexo);
             pessoas.Add(pessoa);
 
-            ListViewItem lvi = new ListViewItem(pessoa.Idade.ToString());
-            lvi.SubItems.Add(pessoa.Sexo);
-            pessoasListView.Items.Add(lvi);
+            AdicionarListView(pessoa);
 
             idadeTextBox.Text = string.Empty;
             sexoTextBox.Text = string.Empty;
