@@ -1,4 +1,4 @@
-# Desafio 1 – Cadastro e Filtro de Pessoas (Windows Forms)
+# Cadastro e Filtro de Pessoas (Windows Forms)
 
 Este é um projeto em C# com Windows Forms, a aplicação permite cadastrar pessoas informando **idade** e **sexo**, com validação dos campos e filtro dinâmico por sexo.
 
